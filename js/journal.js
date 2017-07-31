@@ -8,3 +8,5 @@ Entry.prototype.getWordNumber = function(body) {
   console.log(wordArrayLen);
   return wordArrayLen;
 };
+
+exports.entryModule = Entry;
